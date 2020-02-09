@@ -1,0 +1,502 @@
+
+
+	<div class="top_bar">
+		<div class="bg_left"> </div>
+		<div class="bg_right"> </div>
+	</div>
+	<div class="top_shadow"> </div>
+	<div class="top_background"> </div>
+
+        <div class="questlog_placeholder">&nbsp;</div>
+
+	<table id="main_layout" cellspacing="0">
+		<tbody><tr style="height: 48px;">
+			<td class="topbar left fixed"></td>
+			<td class="topbar center fixed">
+				<div id="topContainer">
+					<table id="topTable" style="text-align: center;" cellspacing="0" class="menu-village-standard">
+						<tbody><tr>
+							<td style="text-align: center;">
+								<table class="menu nowrap menu-village-standard" style="white-space: nowrap; ">
+									<tbody><tr id="menu_row">
+										<td class="menu-side"></td>
+																				<td class="menu-item">
+											<a href="/game.php?village=6534&amp;screen=overview">
+												<span class="icon header overview"></span>
+												Áttekintés
+											</a>
+											
+										</td>
+
+										<td id="header_menu_link_map" class="menu-item tooltip-delayed">
+											<a href="/game.php?village=6534&amp;screen=map">
+												<span class="icon header map2"></span>
+												Térkép
+											</a>
+										</td>
+
+										<td class="menu-item">
+											<a href="/game.php?village=6534&amp;screen=report">
+												<span id="new_report" class="icon header new_report"></span>
+												Jelentések
+												<span id="menu_report_count" class="badge badge-report">(1)</span>
+											</a>
+											<table cellspacing="0" class="menu_column"><tbody><tr><td class="menu-column-item"><a href="/game.php?village=6534&amp;screen=report&amp;mode=all">Összesen<span class="badge badge-report"> (1)</span></a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=6534&amp;screen=report&amp;mode=attack">Támadások</a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=6534&amp;screen=report&amp;mode=defense">Védekezések</a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=6534&amp;screen=report&amp;mode=support">Erősítés</a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=6534&amp;screen=report&amp;mode=trade">Kereskedelem</a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=6534&amp;screen=report&amp;mode=event">Rendezvények</a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=6534&amp;screen=report&amp;mode=other">Egyéb</a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=6534&amp;screen=report&amp;mode=forwarded">Továbbított</a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=6534&amp;screen=report&amp;mode=public">Nyilvános</a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=6534&amp;screen=report&amp;mode=filter">Szűrő</a></td></tr><tr><td class="bottom"><div class="corner"></div><div class="decoration"></div></td></tr></tbody></table>
+										</td>
+
+                                        <!-- mail -->
+                                                                                    <td class="menu-item">
+                                                <a href="/game.php?village=6534&amp;screen=mail">
+                                                    <span id="new_mail" class="icon header new_mail_faded"></span>
+                                                    Üzenetek
+                                                    <span id="menu_mail_count" class="badge badge-mail"></span>
+                                                </a>
+                                                <table cellspacing="0" class="menu_column"><tbody><tr><td class="menu-column-item"><a href="/game.php?village=6534&amp;screen=mail&amp;mode=in">Üzenetek<span class="badge badge-mail"> </span></a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=6534&amp;screen=mail&amp;mode=mass_out">Körlevél</a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=6534&amp;screen=mail&amp;mode=new">Üzenet írása</a></td></tr><tr><td class="bottom"><div class="corner"></div><div class="decoration"></div></td></tr></tbody></table>
+                                            </td>
+                                        
+																					<td>
+																									<a id="manager_icon_farm" class="manager_icon tooltip-delayed" style="background-image:url('https://dshu.innogamescdn.com/asset/464c79c4/graphic/icons/farm_assistent.png')" href="/game.php?village=6534&amp;screen=am_farm">&nbsp;</a>
+																																					<a class="manager_icon tooltip-delayed" style="background-image:url('https://dshu.innogamescdn.com/asset/464c79c4/graphic/icons/account_manager.png')" href="/game.php?village=6534&amp;screen=accountmanager">&nbsp;</a>
+																							</td>
+										
+										<!-- ranking -->
+										<td class="menu-item lpad"> </td>
+																				<td class="menu-item" id="topdisplay">
+											<div class="bg">
+												<a href="/game.php?village=6534&amp;screen=ranking">Ranglista</a>
+												<div class="rank">(<span id="rank_rank">1<span class="grey">.</span>911</span>.|<span id="rank_points">174</span> P)</div>
+												<table cellspacing="0" class="menu_column"><tbody><tr><td class="menu-column-item"><a href="/game.php?village=6534&amp;screen=ranking&amp;mode=ally">Klánok</a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=6534&amp;screen=ranking&amp;mode=player">Játékosok</a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=6534&amp;screen=ranking&amp;mode=dominance">Világ dominancia</a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=6534&amp;screen=ranking&amp;mode=con_ally">Kontinens Klánjai</a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=6534&amp;screen=ranking&amp;mode=con_player">Kontinens Játékosai</a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=6534&amp;screen=ranking&amp;mode=kill_ally">Legyőzött ellenfelek (klán)</a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=6534&amp;screen=ranking&amp;mode=kill_player">Legyőzött ellenfelek</a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=6534&amp;screen=ranking&amp;mode=awards">Eredmények</a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=6534&amp;screen=ranking&amp;mode=in_a_day">Egy nap alatt</a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=6534&amp;screen=ranking&amp;mode=wars">Háborúk</a></td></tr><tr><td class="bottom"><div class="corner"></div><div class="decoration"></div></td></tr></tbody></table>
+											</div>
+										</td>
+																				<td class="menu-item rpad"> </td>
+
+                                        <!-- tribe -->
+                                                                                    <td class="menu-item">
+                                                <a href="/game.php?village=6534&amp;screen=ally">
+                                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                                    Klán
+                                                    <span id="menu_counter_ally" class="badge badge-ally-forum"></span>
+                                                </a>
+                                                <div class="buttonicon">
+                                                    <a href="/game.php?village=6534&amp;screen=ally" style="display:inline"><span id="tribe_forum_indicator" class="icon header no_new_post"></span></a>
+                                                </div>
+                                                                                            </td>
+                                        
+										<!-- profile -->
+										<td class="menu-item">
+											<a href="/game.php?village=6534&amp;screen=info_player">
+												<span class="icon header profile"></span>
+												Profil
+												<span id="menu_counter_profile" class="badge">(3)</span>
+											</a>
+											<table cellspacing="0" class="menu_column"><tbody><tr><td class="menu-column-item"><a href="/game.php?village=6534&amp;screen=info_player">AfroMokus</a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=6534&amp;screen=inventory">Leltár<span class="badge badge-inventory"> (3)</span></a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=6534&amp;screen=info_player&amp;mode=awards">Eredmények</a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=6534&amp;screen=info_player&amp;mode=stats_own">Statisztikák</a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=6534&amp;screen=buddies">Barátok<span class="badge badge-buddy"> </span></a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=6534&amp;screen=info_player&amp;mode=daily_bonus">Napi jutalmak<span class="badge badge-daily-bonus"> </span></a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=6534&amp;screen=mentor">Mentor</a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=6534&amp;screen=info_player&amp;mode=block">Tiltólista</a></td></tr><tr><td class="bottom"><div class="corner"></div><div class="decoration"></div></td></tr></tbody></table>
+										</td>
+
+										<!-- premium -->
+										<td class="menu-item">
+											<a href="/game.php?village=6534&amp;screen=premium">
+												<span class="coinbag coinbag-header"></span>&nbsp;<span id="premium_points">0</span>
+												<span id="premium_points_buy"></span>
+											</a>
+											<table cellspacing="0" class="menu_column"><tbody><tr><td class="menu-column-item"><a href="/game.php?village=6534&amp;screen=premium&amp;mode=use">Aktiválás</a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=6534&amp;screen=premium&amp;mode=premium" class="premium-buy">Vásárlás</a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=6534&amp;screen=premium&amp;mode=transfer">Átadás</a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=6534&amp;screen=premium&amp;mode=log">Log</a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=6534&amp;screen=premium&amp;mode=feature_log">Funkció log</a></td></tr><tr><td class="bottom"><div class="corner"></div><div class="decoration"></div></td></tr></tbody></table>
+										</td>
+
+										<!-- settings -->
+										<td class="menu-item">
+											<a href="/game.php?village=6534&amp;screen=settings">
+												<span class="icon header settings"></span>
+												Beállítások
+											</a>
+											<table cellspacing="0" class="menu_column"><tbody><tr><td class="menu-column-item"><a href="/game.php?village=6534&amp;screen=settings&amp;mode=settings">Játék beállítások</a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=6534&amp;screen=settings&amp;mode=account">Fiók</a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=6534&amp;screen=settings&amp;mode=move">Újrakezdés</a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=6534&amp;screen=settings&amp;mode=transfer">Átlépés Könnyített világra</a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=6534&amp;screen=settings&amp;mode=quickbar">Gyorsgombok</a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=6534&amp;screen=settings&amp;mode=share">Internet-megosztás</a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=6534&amp;screen=settings&amp;mode=vacation">Fiók-helyettesítés</a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=6534&amp;screen=settings&amp;mode=logins">Belépés</a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=6534&amp;screen=settings&amp;mode=poll">Felmérések</a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=6534&amp;screen=settings&amp;mode=ref&amp;source=settings_menu">Játékos meghívása</a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=6534&amp;screen=settings&amp;mode=push">Rendszerüzenetek</a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=6534&amp;screen=settings&amp;mode=notify">E-mail értesítések</a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=6534&amp;screen=settings&amp;mode=browser_notifications">Böngésző üzenetek</a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=6534&amp;screen=settings&amp;mode=command_sharing">Megosztott csapatmozgás</a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=6534&amp;screen=settings&amp;mode=village_notes_sharing">Falujegyzetek megosztása</a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=6534&amp;screen=settings&amp;mode=ticket" target="_blank">Support levél</a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=6534&amp;screen=settings&amp;mode=ticket&amp;data_usage=1" target="_blank">Adathasználati beállítások</a></td></tr><tr><td class="bottom"><div class="corner"></div><div class="decoration"></div></td></tr></tbody></table>
+										</td>
+										
+										<td class="menu-side"><img src="https://dshu.innogamescdn.com/asset/464c79c4/graphic/loading.gif" id="loading_content" style="display: none" alt="" class=""></td>
+									</tr>
+								</tbody></table>
+							</td>
+						</tr>
+					</tbody></table>
+
+                    				</div>
+			</td>
+			<td class="topbar right fixed"> </td>
+
+		</tr>
+		<tr class="shadedBG">
+
+			<td class="bg_left">
+				<div class="bg_left"> </div>
+			</td>
+
+			<td class="maincell" style="width: 850px;">
+
+
+							<div style="position:fixed;">
+					<div id="questlog" class="questlog">
+					<div class="quest opened" id="quest_1091" style="background-image: url(&quot;https://dshu.innogamescdn.com/asset/464c79c4/graphic/buildings/storage.png&quot;);"><div class="quest_progress"></div><div class="quest_new hu">Új</div></div><div class="quest opened" id="quest_1111" style="background-image: url(&quot;https://dshu.innogamescdn.com/asset/464c79c4/graphic/premium/coinbag_18x18.png&quot;);"><div class="quest_progress"></div><div class="quest_new hu">Új</div></div><div class="quest opened" id="quest_1120" style="background-image: url(&quot;https://dshu.innogamescdn.com/asset/464c79c4/graphic/unit/unit_spear.png&quot;);"><div class="quest_progress"></div><div class="quest_new hu">Új</div></div><div class="quest opened" id="quest_1840" style="background-image: url(&quot;https://dshu.innogamescdn.com/asset/464c79c4/graphic/icons/flags.png&quot;);"><div class="quest_progress"></div><div class="quest_new hu">Új</div></div><div class="quest opened" id="quest_7002" style="background-image: url(&quot;https://dshu.innogamescdn.com/asset/464c79c4/graphic/unit/unit_knight.png&quot;);"><div class="quest_progress"></div><div class="quest_new hu">Új</div></div><div class="quest opened" id="quest_11038" style="background-image: url(&quot;https://dshu.innogamescdn.com/asset/464c79c4/graphic/events/hold_sectors/icon_energy.png&quot;);"><div class="quest_progress"></div><div class="quest_new hu">Új</div></div><div class="quest opened" id="quest_11046" style="background-image: url(&quot;https://dshu.innogamescdn.com/asset/464c79c4/graphic/events/hold_sectors/icon_currency.png&quot;);"><div class="quest_progress"></div><div class="quest_new hu">Új</div></div></div>
+				</div>
+			
+			
+			
+			<br class="newStyleOnly">
+	        	        
+			<hr class="oldStyleOnly">
+
+			<table id="header_info" align="center" width="100%" cellspacing="0">
+				<colgroup>
+					<col width="1%">
+					<col width="96%">
+					<col width="1%">
+					<col width="1%">
+					<col width="1%">
+				</colgroup>
+				<tbody><tr>
+					<td class="topAlign">
+						<table class="header-border">
+	                        <tbody><tr>
+	                            <td>
+									<table class="box menu nowrap">
+	                                    <tbody><tr id="menu_row2">
+																																																							<td style="white-space:nowrap;" id="menu_row2_village" class="firstcell box-item icon-box nowrap">
+																									<a class="nowrap tooltip-delayed" href="/game.php?village=6534&amp;screen=overview"><span class="icon header village"></span>AfroMokus faluja</a>
+																							</td>
+																						<td class="box-item" style="padding-right: 6px"><b class="nowrap">(570|460) K45</b></td>
+												                                    </tr>
+	                                </tbody></table>
+	                            </td>
+	                        </tr>
+							<tr class="newStyleOnly">
+								<td class="shadow">
+									<div class="leftshadow"> </div>
+									<div class="rightshadow"> </div>
+								</td>
+							</tr>
+	                    </tbody></table>
+                	</td>
+
+				<td align="right" class="topAlign"> </td><!-- flexible gap -->
+
+				<td align="right" class="topAlign">
+                    
+                </td>
+
+                                <td align="right" class="topAlign">
+					<table align="right" class="header-border menu_block_right">
+						<tbody><tr>
+							<td>
+								<table class="box smallPadding" cellspacing="0" style="empty-cells:show;">
+									<tbody><tr style="height: 20px;">
+										<td class="box-item icon-box firstcell">
+											<a href="/game.php?village=6534&amp;screen=wood" title="Fa - óránként 69"><span class="icon header wood"> </span></a>
+										</td>
+                                        <td class="box-item" style="position: relative">
+                                        	<span id="wood" title="Fa - óránként 69" class="res">159</span>
+                                        </td>
+                                        <td class="box-item icon-box">
+                                        	<a href="/game.php?village=6534&amp;screen=stone" title="Agyag - óránként 69"><span class="icon header stone"> </span></a>
+                                        </td>
+                                        <td class="box-item">
+                                        	<span id="stone" title="Agyag - óránként 69" class="res">253</span>
+                                        </td>
+                                        <td class="box-item icon-box">
+                                        	<a href="/game.php?village=6534&amp;screen=iron" title="Vas - óránként 108"><span class="icon header iron"> </span></a>
+                                        </td>
+										<td class="box-item">
+											<span id="iron" title="Vas - óránként 108" class="res">410</span>
+										</td>
+                                        <td class="box-item icon-box">
+                                        	<a href="/game.php?village=6534&amp;screen=storage" title="Raktárkapacitás"><span class="icon header ressources"> </span></a>
+                                        </td>
+                                        <td class="box-item">
+                                        	<span id="storage" title="Raktárkapacitás">1512</span>
+                                        </td>
+																					<td class="box-item icon-box"><a href="/game.php?village=6534&amp;screen=farm" title="Tanya"><span class="icon header population"> </span></a></td>
+											<td class="box-item" align="center" style="margin:0;padding:0;" title="Tanya">
+												<span id="pop_current_label" class="">158</span>/<span id="pop_max_label">281</span>
+											</td>
+										                                    </tr>
+								</tbody></table>
+							</td>
+						</tr>
+						<tr class="newStyleOnly">
+							<td class="shadow">
+								<div class="leftshadow"> </div>
+								<div class="rightshadow"> </div>
+							</td>
+						</tr>
+					</tbody></table>
+				</td>
+
+                								<td align="right" class="topAlign">
+											<table class="header-border menu_block_right" style="border-collapse: collapse;">
+							<tbody><tr>
+								<td>
+									<table class="box" cellspacing="0">
+										<tbody><tr>
+											<!-- inventory -->
+																							<td class="box-item icon-box firstcell" style="white-space:nowrap; text-align:center;">
+													<a title="Leltár" href="/game.php?village=6534&amp;screen=inventory" style="vertical-align:middle;">
+														<span class="icon header inventory" style="margin:0;"></span>
+													</a>
+												</td>
+											
+																							<td class="box-item icon-box" style="white-space:nowrap;">
+													<a title="Zászlók" href="/game.php?village=6534&amp;screen=flags" style="vertical-align:middle;">
+														<span class="icon header flags_new"></span><span>6</span>													</a>
+												</td>
+																																		<td class="box-item icon-box"><a title="Lovag" href="/game.php?village=6534&amp;screen=statue"><span class="icon header knight"></span></a></td>
+																																		<td class="box-item icon-box">
+													<a href="/game.php?village=6534&amp;screen=event_hold_sectors" class=""><img src="https://dshu.innogamescdn.com/asset/464c79c4/graphic/events/hold_sectors/event_icon.png" title="" alt="" class="menu-event-icon"></a>
+												</td>
+																					</tr>
+									</tbody></table>
+								</td>
+							</tr>
+							<tr class="newStyleOnly">
+								<td class="shadow">
+									<div class="leftshadow"> </div>
+									<div class="rightshadow"> </div>
+								</td>
+							</tr>
+						</tbody></table>
+					                </td>
+
+                				<td class="topAlign  " id="header_commands">
+					<table class="header-border menu_block_right">
+						<tbody><tr>
+							<td>
+								<table class="box smallPadding no-gap" cellspacing="0">
+									<tbody><tr>
+
+										<td id="incomings_cell" style="text-align: center; padding: 0 4px" class="box-item firstcell nowrap">
+																						<img src="https://dshu.innogamescdn.com/asset/464c79c4/graphic/unit/att.png" title="Bejövő támadások" style="vertical-align: -2px" alt="" class="">
+											<span id="incomings_amount">0</span>
+																					</td>
+
+										<td id="supports_cell" style="text-align: center; padding: 0 4px" class="box-item separate nowrap">
+											<a href="">
+												<img src="https://dshu.innogamescdn.com/asset/464c79c4/graphic/command/support.png" title="Érkező erősítés" style="vertical-align: -2px" alt="" class="">
+												<span id="supports_amount"></span>
+											</a>
+										</td>
+									</tr>
+								</tbody></table>
+							</td>
+						</tr>
+						<tr class="newStyleOnly">
+							<td class="shadow">
+								<div class="leftshadow"> </div>
+								<div class="rightshadow"> </div>
+							</td>
+						</tr>
+					</tbody></table>
+				</td>
+							</tr>
+		</tbody></table>
+
+		<div class="popup_helper">
+    <div id="inline_popup" class="hidden">
+        <div id="inline_popup_menu">
+            <span id="inline_popup_title"></span>
+            <a id="inline_popup_close" href="javascript:inlinePopupClose()">X</a>
+        </div>
+        <div id="inline_popup_main">
+            <div id="inline_popup_content">
+                <img src="https://dshu.innogamescdn.com/asset/464c79c4/graphic//throbber.gif" alt="Töltés">
+            </div>
+        </div>
+    </div>
+</div>
+		
+		
+		<div id="script_warning" class="info_box" style="display: none;">
+            <div class="content">
+                Lehetséges, hogy az aktivált scriptek nem kompatibilisek a játék jelenlegi változatával. <br>
+                Amennyiben a problémák továbbra is fennállnak, kérünk deaktiváld, vagy frissítsd a scripteket.<br>
+                Ha a probléma még mindig fennáll, kérünk lépj kapcsolatba a script készítőjével. <ul id="script_list"></ul>
+            </div>
+		</div>
+
+
+	    							<div class="info_box">
+					<div class="content">
+						A kezdővédelem lejár: <span class="">34:59:22</span>.<span class="delete-icon-large hint-toggle float_right" data-setting="hint_beginner_protection"></span>
+
+					</div>
+				</div>
+		    	    
+        
+		<!-- *********************** CONTENT BELOW ************************** -->
+		<table align="center" id="contentContainer" width="100%">
+	        <tbody><tr>
+	            <td>
+					<table class="content-border" width="100%" cellspacing="0">
+	                    <tbody><tr>
+	                        <td id="inner-border">
+								<table class="main" align="left">
+	                                <tbody><tr>
+										<td id="content_value">
+                                            
+                                            <table width="100%">
+	<tbody><tr>
+		<td valign="top"><img src="https://dshu.innogamescdn.com/asset/464c79c4/graphic/big_buildings/statue1.png" title="Szobor" alt="" class=""></td>
+		<td valign="top" width="100%">
+			<h2>Szobor (1. szint)</h2>
+			A Szobornál tudsz lovagot fejleszteni, ha még nem rendelkezel eggyel sem ebben a faluban, és van szabad hely a számára. Foglalj el több falut, hogy több lovagod lehessen.
+		</td>
+	</tr>
+</tbody></table>
+
+			<table class="vis modemenu">
+			<tbody><tr>
+									<td class="selected" style="min-width: 80px"><a href="/game.php?village=6534&amp;screen=statue&amp;mode=resident">Helybeli </a></td>
+									<td style="min-width: 80px"><a href="/game.php?village=6534&amp;screen=statue&amp;mode=overview">Áttekintés </a></td>
+							</tr>
+		</tbody></table>
+	<script>
+    $(function() {
+        BuildingStatue.initImmutables(
+            {"1":{"id":1,"name":"Felt\u00f6lt\u0151d\u00e9s","description":"A lovaggal t\u00f6rt\u00e9n\u0151 t\u00e1mad\u00e1s sor\u00e1n a k\u00eds\u00e9ret\u00e9ben l\u00e9v\u0151 b\u00e1rdos ereje megn\u00f6vekedik.","level_descriptions":{"1":["B\u00e1rdos: +5% t\u00e1mad\u00f3er\u0151 "],"2":["B\u00e1rdos: +10% t\u00e1mad\u00f3er\u0151 "],"3":["B\u00e1rdos: +15% t\u00e1mad\u00f3er\u0151 "],"4":["B\u00e1rdos: +30% t\u00e1mad\u00f3er\u0151 "]},"effect_magnitudes":{"1":5,"2":10,"3":15,"4":30},"level_min":1,"level_max":4},"2":{"id":2,"name":"Lovagl\u00e1s","description":"A lovaggal t\u00f6rt\u00e9n\u0151 t\u00e1mad\u00e1s sor\u00e1n a k\u00eds\u00e9ret\u00e9ben l\u00e9v\u0151 k\u00f6nny\u0171lovas ereje megn\u00f6vekedik.","level_descriptions":{"1":["K\u00f6nny\u0171lovas: +5% t\u00e1mad\u00f3er\u0151 "],"2":["K\u00f6nny\u0171lovas: +10% t\u00e1mad\u00f3er\u0151 "],"3":["K\u00f6nny\u0171lovas: +15% t\u00e1mad\u00f3er\u0151 "],"4":["K\u00f6nny\u0171lovas: +30% t\u00e1mad\u00f3er\u0151 "]},"effect_magnitudes":{"1":5,"2":10,"3":15,"4":30},"level_min":1,"level_max":4},"3":{"id":3,"name":"Rombol\u00e1s","description":"A lovaggal t\u00f6rt\u00e9n\u0151 t\u00e1mad\u00e1s sor\u00e1n a k\u00eds\u00e9ret\u00e9ben l\u00e9v\u0151 katapultok ereje megn\u00f6vekedik, \u00e9s nagyobb rombol\u00e1st okoz az \u00e9p\u00fcletekben.","level_descriptions":{"1":["Katapult: +5% \u00c9p\u00fcletek rombol\u00e1sa"],"2":["Katapult: +10% \u00c9p\u00fcletek rombol\u00e1sa"],"3":["Katapult: +15% \u00c9p\u00fcletek rombol\u00e1sa"],"4":["Katapult: +30% \u00c9p\u00fcletek rombol\u00e1sa"]},"effect_magnitudes":{"1":5,"2":10,"3":15,"4":30},"level_min":1,"level_max":4},"4":{"id":4,"name":"D\u00f6ng\u00f6l\u00e9s","description":"A lovaggal t\u00f6rt\u00e9n\u0151 t\u00e1mad\u00e1s sor\u00e1n a k\u00eds\u00e9ret\u00e9ben l\u00e9v\u0151 kos ereje megn\u00f6vekedik a fal ellen.","level_descriptions":{"1":["Falt\u00f6r\u0151 kos: +5% \u00c9p\u00fcletek rombol\u00e1sa","A t\u00e1mad\u00f3 kosok a v\u00e9dekez\u0151 falat ennyire gyeng\u00edtik meg: 55%. (5% nagyobb, mint a szok\u00e1sos 50%)"],"2":["Falt\u00f6r\u0151 kos: +10% \u00c9p\u00fcletek rombol\u00e1sa","A t\u00e1mad\u00f3 kosok a v\u00e9dekez\u0151 falat ennyire gyeng\u00edtik meg: 60%. (10% nagyobb, mint a szok\u00e1sos 50%)"],"3":["Falt\u00f6r\u0151 kos: +15% \u00c9p\u00fcletek rombol\u00e1sa","A t\u00e1mad\u00f3 kosok a v\u00e9dekez\u0151 falat ennyire gyeng\u00edtik meg: 65%. (15% nagyobb, mint a szok\u00e1sos 50%)"],"4":["Falt\u00f6r\u0151 kos: +30% \u00c9p\u00fcletek rombol\u00e1sa","A t\u00e1mad\u00f3 kosok a v\u00e9dekez\u0151 falat ennyire gyeng\u00edtik meg: 80%. (30% nagyobb, mint a szok\u00e1sos 50%)"]},"effect_magnitudes":{"1":5,"2":10,"3":15,"4":30},"level_min":1,"level_max":4},"5":{"id":5,"name":"Motiv\u00e1ci\u00f3","description":"A lovag \u00e1llom\u00e1soz\u00f3 faluj\u00e1ban fejleszti a termel\u00e9st.","level_descriptions":{"1":["+3% fakitermel\u00e9s","+3% agyagkitermel\u00e9s","+3% vaskitermel\u00e9s"],"2":["+6% fakitermel\u00e9s","+6% agyagkitermel\u00e9s","+6% vaskitermel\u00e9s"],"3":["+9% fakitermel\u00e9s","+9% agyagkitermel\u00e9s","+9% vaskitermel\u00e9s"],"4":["+15% fakitermel\u00e9s","+15% agyagkitermel\u00e9s","+15% vaskitermel\u00e9s"]},"effect_magnitudes":{"1":3,"2":6,"3":9,"4":15},"level_min":1,"level_max":4},"6":{"id":6,"name":"\u00c9p\u00edt\u00e9szet","description":"A lovag \u00e1llom\u00e1soz\u00f3 faluj\u00e1ban gyors\u00edtja az \u00e9p\u00edtkez\u00e9seket.","level_descriptions":{"1":["Minden \u00e9p\u00edtkez\u00e9s gyorsabb ennyivel: 3%!"],"2":["Minden \u00e9p\u00edtkez\u00e9s gyorsabb ennyivel: 6%!"],"3":["Minden \u00e9p\u00edtkez\u00e9s gyorsabb ennyivel: 9%!"],"4":["Minden \u00e9p\u00edtkez\u00e9s gyorsabb ennyivel: 15%!"]},"effect_magnitudes":{"1":3,"2":6,"3":9,"4":15},"level_min":1,"level_max":4},"7":{"id":7,"name":"Oktat\u00e1s","description":"A lovag \u00e1llom\u00e1soz\u00f3 faluj\u00e1ban az egys\u00e9gk\u00e9pz\u00e9s gyorsul.","level_descriptions":{"1":["Minden toborz\u00e1s gyorsabb ennyivel: 3%!"],"2":["Minden toborz\u00e1s gyorsabb ennyivel: 6%!"],"3":["Minden toborz\u00e1s gyorsabb ennyivel: 9%!"],"4":["Minden toborz\u00e1s gyorsabb ennyivel: 15%!"]},"effect_magnitudes":{"1":3,"2":6,"3":9,"4":15},"level_min":1,"level_max":4},"8":{"id":8,"name":"Meggy\u0151z\u00e9s","description":"Fejleszti a nemes t\u00e1mad\u00e1s\u00e1nak hat\u00e9konys\u00e1g\u00e1t abb\u00f3l a falub\u00f3l, ahol a lovag \u00e1llom\u00e1sozik. (A lovagnak a t\u00e1mad\u00f3 faluban kell lennie amikor a t\u00e1mad\u00e1s be\u00e9rkezik, nem a t\u00e1mad\u00f3 seregben.)","level_descriptions":{"1":["Minden nemessel t\u00f6rt\u00e9n\u0151 t\u00e1mad\u00e1s eset\u00e9n n\u00f6veli a h\u0171s\u00e9g cs\u00f6kken\u00e9s\u00e9t ennyivel: 2."],"2":["Minden nemessel t\u00f6rt\u00e9n\u0151 t\u00e1mad\u00e1s eset\u00e9n n\u00f6veli a h\u0171s\u00e9g cs\u00f6kken\u00e9s\u00e9t ennyivel: 4."],"3":["Minden nemessel t\u00f6rt\u00e9n\u0151 t\u00e1mad\u00e1s eset\u00e9n n\u00f6veli a h\u0171s\u00e9g cs\u00f6kken\u00e9s\u00e9t ennyivel: 6."],"4":["Minden nemessel t\u00f6rt\u00e9n\u0151 t\u00e1mad\u00e1s eset\u00e9n n\u00f6veli a h\u0171s\u00e9g cs\u00f6kken\u00e9s\u00e9t ennyivel: 10."]},"effect_magnitudes":{"1":2,"2":4,"3":6,"4":10},"level_min":1,"level_max":4},"9":{"id":9,"name":"Kardv\u00edv\u00e1s","description":"A lovag \u00e1llom\u00e1soz\u00f3 faluj\u00e1ban a kardosok v\u00e9dekez\u0151 ereje megn\u0151.","level_descriptions":{"1":["Kardforgat\u00f3: +5% v\u00e9dekez\u0151 \u00e9rt\u00e9k"],"2":["Kardforgat\u00f3: +10% v\u00e9dekez\u0151 \u00e9rt\u00e9k"],"3":["Kardforgat\u00f3: +15% v\u00e9dekez\u0151 \u00e9rt\u00e9k"],"4":["Kardforgat\u00f3: +30% v\u00e9dekez\u0151 \u00e9rt\u00e9k"]},"effect_magnitudes":{"1":5,"2":10,"3":15,"4":30},"level_min":1,"level_max":4},"10":{"id":10,"name":"Falanx","description":"A lovag \u00e1llom\u00e1soz\u00f3 faluj\u00e1ban a l\u00e1ndzs\u00e1sok v\u00e9dekez\u0151 ereje megn\u0151.","level_descriptions":{"1":["L\u00e1ndzs\u00e1s: +5% v\u00e9dekez\u0151 \u00e9rt\u00e9k"],"2":["L\u00e1ndzs\u00e1s: +10% v\u00e9dekez\u0151 \u00e9rt\u00e9k"],"3":["L\u00e1ndzs\u00e1s: +15% v\u00e9dekez\u0151 \u00e9rt\u00e9k"],"4":["L\u00e1ndzs\u00e1s: +30% v\u00e9dekez\u0151 \u00e9rt\u00e9k"]},"effect_magnitudes":{"1":5,"2":10,"3":15,"4":30},"level_min":1,"level_max":4},"11":{"id":11,"name":"Meger\u0151s\u00edt\u00e9s","description":"A lovag \u00e1llom\u00e1soz\u00f3 faluj\u00e1ban az \u00e9p\u00fcletek kev\u00e9sb\u00e9 \u00e9rz\u00e9kenyek az ostromfegyverekkel szemben.","level_descriptions":{"1":["Az \u00e9p\u00fcletek kev\u00e9sb\u00e9 \u00e9rz\u00e9kenyek az ostromfegyverekkel szemben, ekkora m\u00e9rt\u00e9kben: 10%."],"2":["Az \u00e9p\u00fcletek kev\u00e9sb\u00e9 \u00e9rz\u00e9kenyek az ostromfegyverekkel szemben, ekkora m\u00e9rt\u00e9kben: 20%."],"3":["Az \u00e9p\u00fcletek kev\u00e9sb\u00e9 \u00e9rz\u00e9kenyek az ostromfegyverekkel szemben, ekkora m\u00e9rt\u00e9kben: 30%."],"4":["Az \u00e9p\u00fcletek kev\u00e9sb\u00e9 \u00e9rz\u00e9kenyek az ostromfegyverekkel szemben, ekkora m\u00e9rt\u00e9kben: 50%."]},"effect_magnitudes":{"1":10,"2":20,"3":30,"4":50},"level_min":1,"level_max":4},"12":{"id":12,"name":"Forr\u00f3 olaj","description":"A lovag \u00e1llom\u00e1soz\u00f3 faluj\u00e1ban a Fal v\u00e9dekez\u0151 ereje megn\u0151.","level_descriptions":{"1":["A Fal nagyobb alapv\u00e9delmet (3%) \u00e9s nagyobb v\u00e9delmi b\u00f3nuszt (3%) ad."],"2":["A Fal nagyobb alapv\u00e9delmet (6%) \u00e9s nagyobb v\u00e9delmi b\u00f3nuszt (6%) ad."],"3":["A Fal nagyobb alapv\u00e9delmet (9%) \u00e9s nagyobb v\u00e9delmi b\u00f3nuszt (9%) ad."],"4":["A Fal nagyobb alapv\u00e9delmet (15%) \u00e9s nagyobb v\u00e9delmi b\u00f3nuszt (15%) ad."]},"effect_magnitudes":{"1":3,"2":6,"3":9,"4":15},"level_min":1,"level_max":4}},
+            {"tier_requirements":{"1":1,"2":8,"3":16,"4":24},"branches":[{"name":"T\u00e1mad\u00f3","node_map":{"1":{"skill_id":1,"parent_id":null,"depth":0,"child_ids":[2]},"2":{"skill_id":2,"parent_id":1,"depth":1,"child_ids":[3]},"3":{"skill_id":3,"parent_id":2,"depth":2,"child_ids":[4]},"4":{"skill_id":4,"parent_id":3,"depth":3,"child_ids":[]}},"root_id":1,"color":"rgb(122, 0, 0)","color_dark":"rgb(61, 0, 0)","color_bright":"rgb(183, 0, 0)","image_src":"knight\/branch\/background\/offense.png","border_src":"knight\/branch\/border\/red.png"},{"name":"Falu","node_map":{"5":{"skill_id":5,"parent_id":null,"depth":0,"child_ids":[6]},"6":{"skill_id":6,"parent_id":5,"depth":1,"child_ids":[7]},"7":{"skill_id":7,"parent_id":6,"depth":2,"child_ids":[8]},"8":{"skill_id":8,"parent_id":7,"depth":3,"child_ids":[]}},"root_id":5,"color":"rgb(0, 100, 0)","color_dark":"rgb(0, 50, 0)","color_bright":"rgb(0, 150, 0)","image_src":"knight\/branch\/background\/city.png","border_src":"knight\/branch\/border\/green.png"},{"name":"V\u00e9dekez\u00e9s","node_map":{"9":{"skill_id":9,"parent_id":null,"depth":0,"child_ids":[10]},"10":{"skill_id":10,"parent_id":9,"depth":1,"child_ids":[11]},"11":{"skill_id":11,"parent_id":10,"depth":2,"child_ids":[12]},"12":{"skill_id":12,"parent_id":11,"depth":3,"child_ids":[]}},"root_id":9,"color":"rgb(0, 0, 150)","color_dark":"rgb(0, 0, 75)","color_bright":"rgb(0, 0, 225)","image_src":"knight\/branch\/background\/defense.png","border_src":"knight\/branch\/border\/blue.png"}]},
+            [1,3,5,10,20,35,50,65,80,100],
+            {"time_reduction":{"enabled":true,"pp_cost":10,"factor":0.5},"instant_finish":{"enabled":true,"pp_cost":10,"threshold_minutes":10},"cost_reduction":{"enabled":true,"pp_cost":30,"factor":0.8},"refund_factor":0.9},
+            {"recruit_time_reduction":{"enabled":true,"pp_cost":"10","factor":0.5},"recruit_instant_finish":{"enabled":true,"pp_cost":"10","threshold_minutes":10},"revive_time_reduction":{"enabled":true,"pp_cost":"10","factor":0.5},"revive_instant_finish":{"enabled":true,"pp_cost":"10","threshold_minutes":10}},
+            {"1":{"id":1,"image_big":{"src":"inventory\/paladin_spear.jpg"},"image_mini":{"width":120,"height":120,"atlas_src":"knight\/mini_portraits.jpg","atlas_width":120,"atlas_height":2160,"position_x":0,"position_y":240}},"2":{"id":2,"image_big":{"src":"inventory\/paladin_sword.jpg"},"image_mini":{"width":120,"height":120,"atlas_src":"knight\/mini_portraits.jpg","atlas_width":120,"atlas_height":2160,"position_x":0,"position_y":360}},"3":{"id":3,"image_big":{"src":"inventory\/paladin_axe.jpg"},"image_mini":{"width":120,"height":120,"atlas_src":"knight\/mini_portraits.jpg","atlas_width":120,"atlas_height":2160,"position_x":0,"position_y":480}},"4":{"id":4,"image_big":{"src":"inventory\/paladin_archer.jpg"},"image_mini":{"width":120,"height":120,"atlas_src":"knight\/mini_portraits.jpg","atlas_width":120,"atlas_height":2160,"position_x":0,"position_y":600}},"5":{"id":5,"image_big":{"src":"inventory\/paladin_spy.jpg"},"image_mini":{"width":120,"height":120,"atlas_src":"knight\/mini_portraits.jpg","atlas_width":120,"atlas_height":2160,"position_x":0,"position_y":720}},"6":{"id":6,"image_big":{"src":"inventory\/paladin_light.jpg"},"image_mini":{"width":120,"height":120,"atlas_src":"knight\/mini_portraits.jpg","atlas_width":120,"atlas_height":2160,"position_x":0,"position_y":840}},"7":{"id":7,"image_big":{"src":"inventory\/paladin_marcher.jpg"},"image_mini":{"width":120,"height":120,"atlas_src":"knight\/mini_portraits.jpg","atlas_width":120,"atlas_height":2160,"position_x":0,"position_y":960}},"8":{"id":8,"image_big":{"src":"inventory\/paladin_heavy.jpg"},"image_mini":{"width":120,"height":120,"atlas_src":"knight\/mini_portraits.jpg","atlas_width":120,"atlas_height":2160,"position_x":0,"position_y":1080}},"9":{"id":9,"image_big":{"src":"inventory\/paladin_ram.jpg"},"image_mini":{"width":120,"height":120,"atlas_src":"knight\/mini_portraits.jpg","atlas_width":120,"atlas_height":2160,"position_x":0,"position_y":1200}},"10":{"id":10,"image_big":{"src":"inventory\/paladin_snob.jpg"},"image_mini":{"width":120,"height":120,"atlas_src":"knight\/mini_portraits.jpg","atlas_width":120,"atlas_height":2160,"position_x":0,"position_y":1320}},"11":{"id":11,"image_big":{"src":"inventory\/paladin_female.jpg"},"image_mini":{"width":120,"height":120,"atlas_src":"knight\/mini_portraits.jpg","atlas_width":120,"atlas_height":2160,"position_x":0,"position_y":1440}},"12":{"id":12,"image_big":{"src":"inventory\/paladin_male.jpg"},"image_mini":{"width":120,"height":120,"atlas_src":"knight\/mini_portraits.jpg","atlas_width":120,"atlas_height":2160,"position_x":0,"position_y":1560}},"13":{"id":13,"image_big":{"src":"inventory\/paladin_contest_1.jpg"},"image_mini":{"width":120,"height":120,"atlas_src":"knight\/mini_portraits.jpg","atlas_width":120,"atlas_height":2160,"position_x":0,"position_y":1680}},"14":{"id":14,"image_big":{"src":"inventory\/paladin_contest_2.jpg"},"image_mini":{"width":120,"height":120,"atlas_src":"knight\/mini_portraits.jpg","atlas_width":120,"atlas_height":2160,"position_x":0,"position_y":1800}},"15":{"id":15,"image_big":{"src":"inventory\/paladin_contest_3.jpg"},"image_mini":{"width":120,"height":120,"atlas_src":"knight\/mini_portraits.jpg","atlas_width":120,"atlas_height":2160,"position_x":0,"position_y":1920}},"16":{"id":16,"image_big":{"src":"inventory\/paladin_twinaxe.jpg"},"image_mini":{"width":120,"height":120,"atlas_src":"knight\/mini_portraits.jpg","atlas_width":120,"atlas_height":2160,"position_x":0,"position_y":2040}}}        );
+    });
+</script>
+<h3>Helybeli</h3>
+
+<div id="knight_no_resident" class="info_box" style="display: none;">
+    <div class="content">
+        Ez a falu nem ad otthont egy lovagnak sem.    </div>
+</div>
+
+<div id="knight_recruit" style="display: none;">
+    <h3>Lovag kiképzése</h3>
+    <a href="#" class="knight_recruit_launch btn btn-recruit">Kiképzés</a>
+</div>
+<div id="knight_revive" style="display: none;"></div>
+<div id="knight_recruiting" style="display: none;"></div>
+
+<!-- details about a full-fledged paladin go here -->
+    <table>
+        <tbody><tr>
+            <td style="vertical-align:top; text-align: left;">
+                <div id="knight_essentials" style="text-align: left;">
+                    <div id="knight_name"><div class="knight_name"><span class="quickedit-knight-name" data-id="4568"><span class="quickedit-content"><span class="quickedit-label" data-text="Józsi">Józsi</span> <a class="rename-icon" href="#" title="Átnevez"></a></span></span></div></div>
+                    <div id="knight_level"><div class="knight_level_container"><div class="progress_bar_container"><div class="progress-bar live-progress-bar progress-bar-alive" data-suffix="XP"><span class="label">1<span class="grey">.</span>607 / 2<span class="grey">.</span>896 XP</span><div style="width: 55.4903%;"><span class="label" style="width: 221px;">1<span class="grey">.</span>607 / 2<span class="grey">.</span>896 XP</span></div></div></div><span class="level"><span class="background"></span><span class="value">4</span><img class="frame" src="https://dshu.innogamescdn.com/asset/464c79c4/graphic//knight/level_frame.png"></span><a href="#" class="knight_xp_help_launch"><span class="icon info-med"></span></a></div></div>
+                    <div id="knight_skill_points"><div class="knight_skill_points_container"><span class="points_held"><strong>Képesség pont:</strong> <span class="">2</span></span><span class="points_invested"><strong>Felhasznált:</strong> <span style="color:rgb(122, 0, 0)">0</span> <span style="color:rgb(0, 100, 0)">2</span> <span style="color:rgb(0, 0, 150)">0</span></span></div></div>
+                    <div id="knight_home"><div class="knight_home_container"><strong>Otthon:</strong> Ez a falu</div></div>
+                    <div id="knight_activity"><strong>Állapot:</strong> Otthon</div>
+                    <div id="knight_actions"><div class="knight_actions_container"><a class="knight_train_launch btn btn-default" href="#" data-knight="4568">Gyakorolj XP-ért</a><a class="knight_respec_launch btn btn-pp" href="#" data-knight="4568">Átképzés</a></div></div>
+                </div>
+
+                <div id="knight_portrait" style="background-image: url(&quot;https://dshu.innogamescdn.com/asset/464c79c4/graphic/inventory/paladin_spear.jpg&quot;);"><a href="#" class="edit-button" data-knight="4568"><img src="https://dshu.innogamescdn.com/asset/464c79c4/graphic/edit.png"></a></div>
+            </td>
+            <td style="vertical-align: top;">
+                <div id="knight_skill_tree"><div class="skill_tree_container"><div class="skill_tier_labels"><div class="tier"><div class="label "><span class="level"><span class="background"></span><span class="value">1</span><img class="frame" src="https://dshu.innogamescdn.com/asset/464c79c4/graphic/knight/level_frame.png"></span></div></div><div class="tier_connection"></div><div class="tier"><div class="label locked"><span class="level"><span class="background"></span><span class="value">8</span><img class="frame" src="https://dshu.innogamescdn.com/asset/464c79c4/graphic/knight/level_frame_gray.png"></span></div></div><div class="tier_connection"></div><div class="tier"><div class="label locked"><span class="level"><span class="background"></span><span class="value">16</span><img class="frame" src="https://dshu.innogamescdn.com/asset/464c79c4/graphic/knight/level_frame_gray.png"></span></div></div><div class="tier_connection"></div><div class="tier"><div class="label locked"><span class="level"><span class="background"></span><span class="value">24</span><img class="frame" src="https://dshu.innogamescdn.com/asset/464c79c4/graphic/knight/level_frame_gray.png"></span></div></div></div><div class="skill_branch" style="background-image: url(https://dshu.innogamescdn.com/asset/464c79c4/graphic/knight/branch/background/offense.png);border-color:rgb(61, 0, 0);border-image-source: url(https://dshu.innogamescdn.com/asset/464c79c4/graphic/knight/branch/border/red.png)"><div class="label" style="background-color:rgb(122, 0, 0)">Támadó</div><div class="tier"><div class="skill_node learnable unknown" data-skill="1"><div class="skill_graphic"><div class="background" style="background-color:rgb(122, 0, 0);"></div><img src="https://dshu.innogamescdn.com/asset/464c79c4/graphic/knight/skills/1.png"><div class="twinkly"></div></div><div class="level" style="">0/4</div></div></div><div class="tier_connection"><span class="edge"></span></div><div class="tier"><div class="skill_node  unknown locked" data-skill="2"><div class="skill_graphic"><div class="background" style="background-color:rgb(122, 0, 0);"></div><img src="https://dshu.innogamescdn.com/asset/464c79c4/graphic/knight/skills/gray/2.png"><div class="twinkly"></div></div><div class="level" style="">0/4</div></div></div><div class="tier_connection"><span class="edge"></span></div><div class="tier"><div class="skill_node  unknown locked" data-skill="3"><div class="skill_graphic"><div class="background" style="background-color:rgb(122, 0, 0);"></div><img src="https://dshu.innogamescdn.com/asset/464c79c4/graphic/knight/skills/gray/3.png"><div class="twinkly"></div></div><div class="level" style="">0/4</div></div></div><div class="tier_connection"><span class="edge"></span></div><div class="tier"><div class="skill_node  unknown locked" data-skill="4"><div class="skill_graphic"><div class="background" style="background-color:rgb(122, 0, 0);"></div><img src="https://dshu.innogamescdn.com/asset/464c79c4/graphic/knight/skills/gray/4.png"><div class="twinkly"></div></div><div class="level" style="">0/4</div></div></div></div><div class="skill_branch" style="background-image: url(https://dshu.innogamescdn.com/asset/464c79c4/graphic/knight/branch/background/city.png);border-color:rgb(0, 50, 0);border-image-source: url(https://dshu.innogamescdn.com/asset/464c79c4/graphic/knight/branch/border/green.png)"><div class="label" style="background-color:rgb(0, 100, 0)">Falu</div><div class="tier"><div class="skill_node" data-skill="5"><div class="skill_graphic"><div class="background" style="background-color:rgb(0, 100, 0);"></div><img src="https://dshu.innogamescdn.com/asset/464c79c4/graphic/knight/skills/5.png"><div class="twinkly"></div></div><div class="level" style="background: linear-gradient(to bottom, rgb(0, 50, 0) 0%, rgb(0, 150, 0) 100%);">2/4</div></div></div><div class="tier_connection"><span class="edge"><span class="filler" style="background-color: rgb(0, 150, 0);"></span></span></div><div class="tier"><div class="skill_node  unknown locked" data-skill="6"><div class="skill_graphic"><div class="background" style="background-color:rgb(0, 100, 0);"></div><img src="https://dshu.innogamescdn.com/asset/464c79c4/graphic/knight/skills/gray/6.png"><div class="twinkly"></div></div><div class="level" style="">0/4</div></div></div><div class="tier_connection"><span class="edge"></span></div><div class="tier"><div class="skill_node  unknown locked" data-skill="7"><div class="skill_graphic"><div class="background" style="background-color:rgb(0, 100, 0);"></div><img src="https://dshu.innogamescdn.com/asset/464c79c4/graphic/knight/skills/gray/7.png"><div class="twinkly"></div></div><div class="level" style="">0/4</div></div></div><div class="tier_connection"><span class="edge"></span></div><div class="tier"><div class="skill_node  unknown locked" data-skill="8"><div class="skill_graphic"><div class="background" style="background-color:rgb(0, 100, 0);"></div><img src="https://dshu.innogamescdn.com/asset/464c79c4/graphic/knight/skills/gray/8.png"><div class="twinkly"></div></div><div class="level" style="">0/4</div></div></div></div><div class="skill_branch" style="background-image: url(https://dshu.innogamescdn.com/asset/464c79c4/graphic/knight/branch/background/defense.png);border-color:rgb(0, 0, 75);border-image-source: url(https://dshu.innogamescdn.com/asset/464c79c4/graphic/knight/branch/border/blue.png)"><div class="label" style="background-color:rgb(0, 0, 150)">Védekezés</div><div class="tier"><div class="skill_node learnable unknown" data-skill="9"><div class="skill_graphic"><div class="background" style="background-color:rgb(0, 0, 150);"></div><img src="https://dshu.innogamescdn.com/asset/464c79c4/graphic/knight/skills/9.png"><div class="twinkly"></div></div><div class="level" style="">0/4</div></div></div><div class="tier_connection"><span class="edge"></span></div><div class="tier"><div class="skill_node  unknown locked" data-skill="10"><div class="skill_graphic"><div class="background" style="background-color:rgb(0, 0, 150);"></div><img src="https://dshu.innogamescdn.com/asset/464c79c4/graphic/knight/skills/gray/10.png"><div class="twinkly"></div></div><div class="level" style="">0/4</div></div></div><div class="tier_connection"><span class="edge"></span></div><div class="tier"><div class="skill_node  unknown locked" data-skill="11"><div class="skill_graphic"><div class="background" style="background-color:rgb(0, 0, 150);"></div><img src="https://dshu.innogamescdn.com/asset/464c79c4/graphic/knight/skills/gray/11.png"><div class="twinkly"></div></div><div class="level" style="">0/4</div></div></div><div class="tier_connection"><span class="edge"></span></div><div class="tier"><div class="skill_node  unknown locked" data-skill="12"><div class="skill_graphic"><div class="background" style="background-color:rgb(0, 0, 150);"></div><img src="https://dshu.innogamescdn.com/asset/464c79c4/graphic/knight/skills/gray/12.png"><div class="twinkly"></div></div><div class="level" style="">0/4</div></div></div></div></div></div>
+            </td>
+        </tr>
+    </tbody></table>
+
+<script>
+    $(function() {
+        Timing.whenReady(function() {
+            BuildingStatue.initTutor({"book_counts":{"9":1,"1":1},"respec":{"enabled":true,"pp_cost":"150"}});
+            BuildingStatue.receiveKnightsData([], {"4568":{"id":4568,"name":"J\u00f3zsi","portrait_id":1,"level":4,"xp":{"progress":1607.5,"goal":2896},"skills":{"5":{"id":5,"level":2}},"skill_points":2,"branch_investments":[{"branch_name":"T\u00e1mad\u00f3","branch_color":"rgb(122, 0, 0)","points":0},{"branch_name":"Falu","branch_color":"rgb(0, 100, 0)","points":2},{"branch_name":"V\u00e9dekez\u00e9s","branch_color":"rgb(0, 0, 150)","points":0}],"home_village":{"id":6534,"name":"AfroMokus faluja","display_name":"AfroMokus faluja (570|460) K45","wood":159,"wood_prod":0.01912018929,"wood_float":159.0342189,"stone":253,"stone_prod":0.01912018929,"stone_float":253.0342189,"iron":410,"iron_prod":0.03008593868,"iron_float":410.083079,"pop":158,"pop_max":281,"x":570,"y":460,"trader_away":2,"storage_max":1512,"bonus_id":null,"bonus":{"wood":1.06,"stone":1.06,"iron":1.06},"buildings":{"main":"9","barracks":"3","stable":"0","garage":"0","watchtower":"0","snob":"0","smith":"1","place":"1","statue":"1","market":"2","wood":"3","stone":"3","iron":"6","farm":"2","storage":"3","hide":"1","wall":"0"},"player_id":1535731,"modifications":0,"points":174,"last_res_tick":1577265332000,"coord":"570|460","is_farm_upgradable":true},"current_regimen":null,"usable_regimens":[{"id":21,"res_cost":{"wood":100,"stone":100,"iron":100},"xp_payout":500,"duration":9000},{"id":22,"res_cost":{"wood":200,"stone":200,"iron":200},"xp_payout":800,"duration":18000},{"id":23,"res_cost":{"wood":400,"stone":400,"iron":400},"xp_payout":1400,"duration":36000},{"id":24,"res_cost":{"wood":700,"stone":700,"iron":700},"xp_payout":2200,"duration":54000},{"id":25,"res_cost":{"wood":1000,"stone":1000,"iron":1000},"xp_payout":3000,"duration":108000}],"activity":{"type":"home","description":"Otthon","description_html":null,"url":null,"finish_time":null,"icon_src":null},"spawn_warn_premium":false}}, 0);
+            BuildingStatue.Modes.resident.init();
+        });
+    });
+</script>
+	                               		</td>
+									</tr>
+								</tbody></table>
+							</td>
+						</tr>
+					</tbody></table>
+				</td>
+			</tr>
+		</tbody></table>
+
+		<p class="server_info">
+			Szerver idő: <span id="serverTime" title="Kapcsolódási idő a szerverhez: 119ms">10:15:35</span> <span id="serverDate">25/12/2019</span>
+			<span id="dev_console" style="display: none"><b>|</b> <a href="?screen=74:72:69:62:61:6c:77:61:72:73">developer console</a></span>
+					</p>
+
+	</td>
+	<td class="bg_right" id="SkyScraperAdCell">
+		<div class="bg_right"> </div>
+			</td>
+</tr>
+
+    <tr>
+        <td class="bg_leftborder"></td>
+        <td></td>
+        <td class="bg_rightborder"></td>
+    </tr>
+    <tr class="newStyleOnly">
+        <td class="bg_bottomleft">&nbsp;</td>
+        <td class="bg_bottomcenter">&nbsp;</td>
+        <td class="bg_bottomright">&nbsp;</td>
+    </tr>
+            </tbody></table><!-- .main_layout -->
+
+
+
+            <div id="world_selection_clicktrap" class="evt-world-selection-toggle"></div>
+        <div id="world_selection_popup">
+            <div class="servers-list-top"></div>
+            <div id="servers-list-block"></div>
+            <div class="servers-list-bottom"></div>
+        </div>
+        <div class="chat-open-buffer"></div>
+    <div id="bottom">
+        <div id="chat-wrapper">
+        </div>
+
+        <div id="footer">
+            <a href="#" id="unsupported-browser">
+                <img src="https://dshu.innogamescdn.com/asset/464c79c4/graphic/error.png" title="" alt="" class=""> Nem támogatott böngésző
+            </a>
+            <div id="linkContainer">
+                                    <a href="#" class="world_button_active evt-world-selection-toggle">Világ 58</a>
+                                <a href="https://forum.klanhaboru.hu" class="footer-link" target="_blank">Fórum </a>
+                &nbsp;-&nbsp;
+                <a href="https://help.klanhaboru.hu" class="footer-link" target="_blank">Súgó</a>
+                                                    &nbsp;-&nbsp;
+                    <a href="/game.php?village=6534&amp;screen=settings&amp;mode=ticket" class="footer-link" target="_blank">Support</a>
+                                                    &nbsp;-&nbsp;
+                    <a href="/game.php?village=6534&amp;screen=settings&amp;mode=ref&amp;source=bottom_menu" class="footer-link">Játékos meghívása</a>
+                                                    &nbsp;-&nbsp;
+                    <a href="/game.php?village=6534&amp;screen=memo" class="footer-link">Jegyzetek</a>
+                                                    &nbsp;-&nbsp;
+                    <a href="/game.php?village=6534&amp;screen=&amp;action=logout&amp;h=fd44bcee" target="_top" class="footer-link">Kijelentkezés</a>
+                                &nbsp;-&nbsp;
+                <a href="https://www.facebook.com/TribalWarsHungary" class="footer-link" target="_blank">Facebook</a>
+            </div>
+        </div>
+    </div>
+
+
+
+    
+
+<script>
+    $(document).ready(function () {
+        Timing.init(1577265332.1748);
+        TribalWars.initTab('10d199dcb1');
+
+                WorldSwitch.init();
+        WorldSwitch.worldsURL = '/game.php?village=6534&screen=api&ajax=world_switch&';
+        
+                HotKeys.init();
+        
+                Connection.connect('hu58.klanhaboru.hu', 8083, true);
+        
+                    });
+</script>
+
+<div id="side-notification-container"></div>
+<!-- emoji images by Twitter Twemoji -->
+
+
+<div id="tooltip" style="display: none;"><h3></h3><div class="body"></div><div class="url"></div></div>
